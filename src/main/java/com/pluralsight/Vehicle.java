@@ -3,18 +3,6 @@ package com.pluralsight;
 public class Vehicle {
     private String model;
 
-    public Vehicle(String model, String color, int topSpeed, int numberOfPassengers, int cargoCapacity) {
-        this.model = model;
-        this.color = color;
-        this.topSpeed = topSpeed;
-        this.numberOfPassengers = numberOfPassengers;
-        this.cargoCapacity = cargoCapacity;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
     public void setModel(String model) {
         this.model = model;
     }

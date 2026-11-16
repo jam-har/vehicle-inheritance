@@ -3,8 +3,8 @@ package com.pluralsight;
 public class Car extends Vehicle {
     private int numberOfDoors;
 
-    public Car(String model, String color, int topSpeed, int numberOfPassengers, int cargoCapacity) {
-        super(model, color, topSpeed, numberOfPassengers, cargoCapacity);
+    public void setNumberOfDoors(int numberOfDoors) {
+        this.numberOfDoors = numberOfDoors;
     }
 
     public void openTrunk() {
